@@ -15,7 +15,9 @@ public class Testegit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Olá Mundo, testando git");
+        Pessoa p = new Pessoa(33, "Anastácio Colembi");
+        System.out.println("O seu nome é: "+p.getNome()+", e a sua idade é: "+p.getIdade());
+        
     }
     
 }
